@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <title>Library Managment</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link rel="stylesheet" href="suprajacss.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+   <!--add icon library-->
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>    
+</head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="supraja.html"><img src="https://cdn1.vectorstock.com/i/1000x1000/93/15/creative-abstract-open-book-sun-logo-design-symbol-vector-26089315.jpg"></a>
+                <p style="font-size:30px;color:#fff;">LIBRARY MANAGEMENT SYSTEM</p>
+                <div class="navbar" id="navbar1">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="supraja.html">HOME</a></li>
+                        <li><a href="login.html">SIGNIN</a></li>
+                        <li><a href="login.html">SIGNUP</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>Welcome</h1><br>
+                <h3><a href="search.html" class="hero-btn">Search Books</a></h3><br><br>
+                <h3><a href="supraja.html #visit" class="hero-btn">Click here to Know more</a></h3>
+                
+            </div>
+        </section>
+      <!---books we offer --->
+      <a name ="visit"></a>
+      <section class="book">
+          <h1>Books We Offer</h1>
+          <p>Consists of different types of books in which the students can enhance their 
+          knowledge based on their interest.</p>
+          
+          <div class="row">
+              <div class="course-col">
+                <h3>Library-</h3>
+                  <p> plays a significant role in enhancing and sustaining the knowledge environment. 
+                A student can read and gain knowledge.</p>  
+              </div>
+              <div class="course-col">
+                <h3>"Your Mind is a Garden and Books are the Seeds,so pick your favorite and blooms you Read!"</h3>
+                <p><b>"Today a Reader.Tomorrow a Leader."</b></p>   
+            </div>
+              <div class="course-col">
+                <h3>Readers-</h3>
+                <p>are responsible for returning the items before the due date.If they do not, the item will be 
+                    labeled as overdue and reader should pay 50 rupees per month for each book.</p>
+              </div>
+          </div>
+       </section>
+
+       <!----Office---->
+      <section class="office">
+          <h1>Our Office</h1>
+              <div class="campus-col">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIG9Gay9eFE0K3McScBMHp0bmGg1j4HVdwxw&usqp=CAU">
+                   <div class="layer"></div>
+          </div>
+      </section>
+
+      <!--------contactus--------->
+
+      <section class="location">
+        <h1>Location</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.8865403854!2d77.49085209765
+        133!3d12.95395998682417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc
+        3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1652640839889!5m2!1sen!2sin" width="600" 
+        height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downg
+        rade"></iframe>
+      </section>
+
+      <section class="contact-us">
+          <div class="row">
+              <div class="contact-col">
+                  <div>
+                      <i class="fa fa-home"></i>
+                      <span>
+                          <h5>ABC Road,Sri Building</h5>
+                          <p>Bangalore,Karnataka,IN</p>
+                      </span>
+                  </div>
+                  <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+1 09391260265</h5>
+                        <p>Monday to Saturday,10AM to 7PM</p>
+                    </span>
+                  </div>
+                  <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>lms123@gmail.com</h5>
+                        <p>Email us for any queries</p>
+                    </span>
+                  </div> 
+
+              </div>
+          </div>
+
+      </section>
+        <!---js code for toggle menu---->
+        <script>
+            var navbar1=document.getElementById("navbar1");
+            function showMenu()
+            {
+                navbar1.style.right="0";
+            }
+            function hideMenu()
+            {
+                navbar1.style.right="-200px";
+            }
+        </script>
+
+    </body>
+</html>
